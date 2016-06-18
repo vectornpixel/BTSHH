@@ -77,10 +77,21 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
-
+/*
+ * Switch local and dev databases
+define('WP_CACHE', true);
+$currenthost = $_SERVER['HTTP_HOST'];
+$mypos = strpos($currenthost, 'localhost');
+if ($mypos === false) {
+	define('WP_HOME','http://www.btshiphop.com');
+	define('WP_SITEURL','http://www.btshiphop.com');
+} else {
+	define('WP_HOME','http://localhost:8888/BTSHH');
+	define('WP_SITEURL','http://localhost:8888/BTSHH');
+}*/
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');

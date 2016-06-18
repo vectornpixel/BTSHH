@@ -1,0 +1,205 @@
+/*------------------------------------*\
+		$Global Variables
+\*------------------------------------*/
+
+$baseFontSize: 16px;
+$baseMargin: 10px;
+$basePadding: 10px;
+$marginless:0;
+$fullwidth: 100%;
+
+
+$brand-primary:#c74046;
+$brand-secondary:#222222;
+$yellow: #f2d03b;
+$white:#fff;
+$black:#000;
+$lightgrey:#e9e9e9;
+$darkgrey: #171717;
+
+
+
+/*------------------------------------*\
+	$Base Styles
+\*------------------------------------*/
+html,body{
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  letter-spacing: 1px;
+}
+article{
+  margin:0;
+}
+.full-width{
+  width:100%;
+}
+.centered {
+  display: table;
+  width: 100%;
+}
+.centered .vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+.absolute-center{
+  margin: auto;
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+}
+.centered {
+  display: table;
+  width: 100%;
+}
+.centered .vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+.centered-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.spacing-padding{
+  padding:$basePadding * 2;
+}
+.spacing{
+  margin-top:$baseMargin * 2;
+  margin-bottom: $baseMargin * 2;
+}
+.spacing-bottom{
+  margin-bottom: $baseMargin * 2;
+}
+.spacing-top{
+  margin-top:$baseMargin * 2;
+}
+.marginless{
+  margin: $marginless;
+}
+.no-padding{
+  padding:0;
+
+}
+section{
+  /*padding-top:$basePadding * 5;
+  padding-bottom:$basePadding * 5;*/
+}
+.content-table {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.circle{
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  background-color: #4cc2f3;
+  width:50%;
+  height: 50%;
+  padding:48px;
+
+}
+.circle:hover{
+  background-color:#dcdcdc;
+  -webkit-transition-property:color, background;
+  -webkit-transition-duration: .20s, .20s;
+  -webkit-transition-timing-function: linear, ease-in;
+}
+
+.button{
+  background-color:$black;
+  color:$black;
+  border: 1px solid transparent;
+  padding:10px 40px;
+}
+.button-over{
+  background-color:transparent;
+  border: 1px solid $white;
+  color:$black;
+  -webkit-transition: background 0.30s ease-in;
+  -moz-transition: background 0.30s ease-in;
+  -o-transition: background 0.30s ease-in;
+  transition: background 0.30s ease-in;
+}
+.object-fit_fill {
+  object-fit: fill;
+}
+.object-fit_contain {
+  object-fit: contain;
+}
+.object-fit_cover {
+  object-fit: cover;
+}
+.object-fit_none {
+  object-fit: none;
+}
+.object-fit_scale-down {
+  object-fit: scale-down;
+}
+/*------------------------------------*\
+    $Font Sizing & Styles
+\*------------------------------------*/
+
+.giga, .mega, .kilo, .alpha, .beta, .gamma, .delta, .epsilon, .milli, .zeta{
+
+}
+.giga{
+  font-size: 80px;
+}
+
+.mega {
+  font-size: 64px;
+}
+
+.kilo{
+  font-size: 48px;
+}
+
+.alpha {
+  font-size: 32px;
+}
+
+.beta {
+  font-size: 24px;
+}
+
+.gamma {
+  font-size: 20px;
+}
+
+.delta {
+  font-size: 18px;
+}
+
+.epsilon {
+  font-size: 16px;
+}
+.zeta {
+  font-size: 14px;
+}
+
+.milli {
+  font-size: 12px;
+}
+.text-bold{
+  font-weight: 400;
+}
+
+.white{
+  color:$white;
+}
