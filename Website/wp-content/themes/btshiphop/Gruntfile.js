@@ -1,8 +1,12 @@
+/*
+  Grunt Build version 1.
+  Version 1.5 will include: Github, FTP, Database Backup, Proxy Server, Css Lint
+*/
 module.exports = function (grunt) {
   'use strict';
   grunt.initConfig({
     clean: {
-      build: ['build']
+      assets: 'assets'
     },
     jshint: {
       options: {
@@ -13,31 +17,28 @@ module.exports = function (grunt) {
     concat: {
       dist: {
         src: ['js/*.js'],
-        dest: 'js/scripts.js'
+        dest: 'assets/js/scripts.js'
+      }
+    },
+    sass: {
+      dist: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          'assets/css/main.css': 'assets/sass/main.scss'
+        }
       }
     },
     watch: {
       sass: {
-        files: [
-          'assets/sass/main.scss',
-          'assets/sass/**/*.scss'
-        ],
-        tasks: ['sass:build']
+        files: ['assets/sass/main.scss','assets/sass/**/*.scss'],
+        tasks: ['sass']
       },
       build: {
         files: ['js/*.js'],
         tasks: ['jshint', 'browserify', 'uglify']
       },
-    },
-    sass: {
-      options: {
-        sourceMap: true
-      },
-      dist: {
-        files: {
-          'main.css': 'main.scss'
-        }
-      }
     },
     uglify: {
       player: {
@@ -45,21 +46,23 @@ module.exports = function (grunt) {
           sourceMap: true
         },
         files: {
-          'js/scripts.min.js': ['js/scripts.js']
+          'assets/js/scripts.min.js': ['assets/js/scripts.js']
         }
       }
     }
   });
 
-
+// load NPM tasks individually
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-concurrent');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   // Register tasks
   grunt.registerTask('default', [
@@ -68,15 +71,15 @@ module.exports = function (grunt) {
   ]);
   grunt.registerTask('dev', [
     'jshint',
-    'concat'
+     'sass'
   ]);
   grunt.registerTask('build', [
-    'sass',
+    'concat',
     'uglify'
   ]);
 
   grunt.task.run([
-    'open',
+    'dev',
     'watch'
   ]);
 };

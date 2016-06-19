@@ -12,6 +12,7 @@
     "grunt-contrib-jshint": "*",
     "grunt-sass": "*",
     "grunt-contrib-concat": "*",
+    "grunt-contrib-sass": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-uglify": "*",
     "connect-livereload": "*",
