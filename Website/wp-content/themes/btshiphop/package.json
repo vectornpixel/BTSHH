@@ -17,6 +17,8 @@
     "grunt-contrib-uglify": "*",
     "connect-livereload": "*",
     "grunt-contrib-watch": "*"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.0"
   }
 }
-
