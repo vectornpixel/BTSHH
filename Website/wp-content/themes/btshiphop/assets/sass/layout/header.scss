@@ -1,0 +1,26 @@
+.nav-top{
+  background-color: $white;
+}
+.logo_wrapper{
+
+  width:300px;
+
+  .logo_background{
+
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-color:$brand-primary;
+  }
+  .logo_image{
+    display: flex;
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    img{
+      width:100%;
+      margin: auto auto;
+      display: block;
+    }
+  }
+}

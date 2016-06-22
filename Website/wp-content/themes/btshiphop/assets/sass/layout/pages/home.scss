@@ -1,0 +1,40 @@
+
+.article_meta{
+  background-color:$yellow;
+}
+.posted-on{
+  border-bottom: $brand-secondary 5px solid;
+  a{
+
+  }
+}
+.article_tag{
+  position: absolute;
+  z-index: 9999;
+  top: -20px;
+}
+.article_tag > span{
+  float:left;
+}
+.article_tag-block{
+  width:50px;
+  height:50px;
+  background-color: $brand-primary;
+  margin-right:2px;
+  &:first-child{
+    background-color: $brand-secondary;
+  }
+}
+
+.article_tag-title{
+  width:200px;
+  height:50px;
+  background-color: $yellow;
+  margin-right:$baseMargin;
+}
+.article_media-image{
+  img{
+    border-top:5px solid $brand-secondary;
+  }
+
+}

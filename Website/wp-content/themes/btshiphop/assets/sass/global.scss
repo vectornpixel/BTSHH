@@ -9,9 +9,9 @@ $marginless:0;
 $fullwidth: 100%;
 
 
-$brand-primary:#c74046;
-$brand-secondary:#222222;
-$yellow: #f2d03b;
+$brand-primary:#00a388;
+$brand-secondary:#ff6138;
+$yellow: #ffff9d;
 $white:#fff;
 $black:#000;
 $lightgrey:#e9e9e9;
@@ -32,6 +32,33 @@ p{
 }
 article{
   margin:0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .full-width{
   width:100%;
@@ -64,6 +91,15 @@ article{
   display: table;
   width: 100%;
   height: 100%;
+}
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+}
+.clearfix{
+  clear:both;
 }
 .spacing-padding{
   padding:$basePadding * 2;
@@ -135,6 +171,10 @@ section{
   -moz-transition: background 0.30s ease-in;
   -o-transition: background 0.30s ease-in;
   transition: background 0.30s ease-in;
+}
+.img_responsive{
+  max-width:100%;
+  display:block;
 }
 .object-fit_fill {
   object-fit: fill;

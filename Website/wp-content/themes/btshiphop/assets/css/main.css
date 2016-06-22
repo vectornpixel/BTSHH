@@ -1,4 +1,11 @@
 @import url(flexboxgrid.css);
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+@import url(bootstrap.css);
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 /*------------------------------------*		$Global Variables
 \*------------------------------------*/
 /*------------------------------------*	$Base Styles
@@ -13,6 +20,30 @@ p {
 
 article {
   margin: 0; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .full-width {
   width: 100%; }
@@ -45,6 +76,15 @@ article {
   display: table;
   width: 100%;
   height: 100%; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.clearfix {
+  clear: both; }
 
 .spacing-padding {
   padding: 20px; }
@@ -112,6 +152,10 @@ section {
   -o-transition: background 0.30s ease-in;
   transition: background 0.30s ease-in; }
 
+.img_responsive {
+  max-width: 100%;
+  display: block; }
+
 .object-fit_fill {
   object-fit: fill; }
 
@@ -164,3 +208,57 @@ section {
 
 .white {
   color: #fff; }
+
+.nav-top {
+  background-color: #fff; }
+
+.logo_wrapper {
+  width: 300px; }
+  .logo_wrapper .logo_background {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #00a388; }
+  .logo_wrapper .logo_image {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; }
+    .logo_wrapper .logo_image img {
+      width: 100%;
+      margin: auto auto;
+      display: block; }
+
+.article_meta {
+  background-color: #ffff9d; }
+
+.posted-on {
+  border-bottom: #ff6138 5px solid; }
+
+.article_tag {
+  position: absolute;
+  z-index: 9999;
+  top: -20px; }
+
+.article_tag > span {
+  float: left; }
+
+.article_tag-block {
+  width: 50px;
+  height: 50px;
+  background-color: #00a388;
+  margin-right: 2px; }
+  .article_tag-block:first-child {
+    background-color: #ff6138; }
+
+.article_tag-title {
+  width: 200px;
+  height: 50px;
+  background-color: #ffff9d;
+  margin-right: 10px; }
+
+.article_media-image img {
+  border-top: 5px solid #ff6138; }
+
+.menu li {
+  list-style: none; }

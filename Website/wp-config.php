@@ -26,7 +26,15 @@ define('DB_NAME', 'btshh');
 define('DB_USER', 'root');
 
 /** MySQL database password */
+<<<<<<< Updated upstream
 define('DB_PASSWORD', '');
+=======
+<<<<<<< HEAD
+define('DB_PASSWORD', 'root');
+=======
+define('DB_PASSWORD', '');
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
