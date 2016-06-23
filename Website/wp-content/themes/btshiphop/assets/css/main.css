@@ -244,7 +244,8 @@ section {
   color: #fff; }
 
 .nav-top {
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 100px; }
 
 .logo_wrapper {
   width: 300px; }
@@ -262,6 +263,12 @@ section {
       width: 100%;
       margin: auto auto;
       display: block; }
+
+.menu li {
+  width: 150px;
+  float: left;
+  border-right: 2px solid #000;
+  margin-right: 70px; }
 
 .article_wrapper {
   height: auto; }
@@ -283,7 +290,8 @@ section {
   letter-spacing: 2px; }
 
 .posted-on {
-  border-bottom: #ff6138 5px solid; }
+  border-bottom: #ff6138 5px solid;
+  text-transform: uppercase; }
 
 .article_tag {
   position: absolute;

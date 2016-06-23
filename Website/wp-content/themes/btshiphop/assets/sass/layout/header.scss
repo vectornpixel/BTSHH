@@ -1,5 +1,6 @@
 .nav-top{
   background-color: $white;
+  margin-bottom: 100px;
 }
 .logo_wrapper{
 
@@ -23,4 +24,10 @@
       display: block;
     }
   }
+}
+.menu li{
+  width: 150px;
+  float: left;
+  border-right: 2px solid #000;
+  margin-right: 70px;
 }

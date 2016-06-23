@@ -45,6 +45,7 @@
 							<div class="row">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'btshh' ); ?></button>
 								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+								<div class="clearfix"></div>
 							</div>
 						</div>
 					</div>
