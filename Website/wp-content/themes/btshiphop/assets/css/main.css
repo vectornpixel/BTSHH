@@ -1,15 +1,27 @@
-@import url(flexboxgrid.css);
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+/*@import "flexboxgrid.css";*/
 @import url(bootstrap.css);
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
 /*------------------------------------*		$Global Variables
 \*------------------------------------*/
 /*------------------------------------*	$Base Styles
 \*------------------------------------*/
+@font-face {
+  font-family: 'Zona  Black';
+  src: url("fonts/Zona Black.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Zona Black.eot?#iefix") format("embedded-opentype"), url("fonts/Zona Black.woff") format("woff"), url("fonts/Zona Black.ttf") format("truetype"), url("fonts/Zona Black.svg#b64275caa5fc3dd6e28b7d99531de6c6") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Zona  Black';
+  src: url("fonts/Zona Black Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Zona Black Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Zona Black Italic.woff") format("woff"), url("fonts/Zona Black Italic.ttf") format("truetype"), url("fonts/Zona Black Italic.svg#0ec07cbb177fe077af6f444ae34432e8") format("svg");
+  /* Legacy iOS */
+  font-style: italic;
+  font-weight: 400; }
+
 html, body {
   height: 100%;
   font-size: 16px;
@@ -38,6 +50,28 @@ article {
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flexbox .sec {
+  flex: 1; }
+
+.flexbox .sec:nth-child(1) {
+  /*background: $yellow;*/
+  background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
+  background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  order: 0; }
+
+.flexbox .sec:nth-child(2) {
+  /*background: $yellow;*/
+  background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
+  background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  order: 1; }
 
 .container-fluid {
   padding-right: 15px;
@@ -229,8 +263,24 @@ section {
       margin: auto auto;
       display: block; }
 
-.article_meta {
-  background-color: #ffff9d; }
+.article_wrapper {
+  height: auto; }
+  .article_wrapper .article_background {
+    background-color: #fff;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+    background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
+    background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+    background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%); }
+
+.article_title a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Zona  Black';
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .posted-on {
   border-bottom: #ff6138 5px solid; }

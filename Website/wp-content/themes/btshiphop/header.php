@@ -28,23 +28,28 @@
 
 		<div class="nav nav-top">
 			<div class="container">
-				<div class="logo_wrapper">
-					<div class="logo_background">
-						<div class="logo_image">
-						<img class="img-responsive" src="http://localhost:8888/BTSHH/Website/wp-content/uploads/2016/06/btslogo.png">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo_wrapper">
+							<div class="logo_background">
+								<div class="logo_image">
+									<img class="img-responsive" src="http://localhost:8888/BTSHH/Website/wp-content/uploads/2016/06/btslogo.png">
+								</div>
+							</div>
+						</div>
+						<nav id="site-navigation" class="main-navigation" role="navigation">
+						</nav><!-- #site-navigation -->
+					</div>
+					<div class="col-md-8">
+						<div class="nav_wrapper">
+							<div class="row">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'btshh' ); ?></button>
+								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+							</div>
 						</div>
 					</div>
 				</div>
-				<nav id="site-navigation" class="main-navigation" role="navigation">
 
-				</nav><!-- #site-navigation -->
-				<div class="nav_wrapper">
-					<div class="row">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'btshh' ); ?></button>
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					</div>
-
-				</div>
 
 			</div>
 		</div>

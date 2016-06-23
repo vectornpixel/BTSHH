@@ -1,6 +1,27 @@
-
+.article_wrapper{
+  height:auto;
+  .article_background{
+    background-color:#fff;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+    background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
+    background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+    background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  }
+}
+.article_title{
+  a{
+    color:$black;
+    text-decoration: none;
+    font-family: 'Zona  Black';
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
 .article_meta{
-  background-color:$yellow;
+
 }
 .posted-on{
   border-bottom: $brand-secondary 5px solid;
