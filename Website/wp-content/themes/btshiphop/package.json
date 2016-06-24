@@ -4,19 +4,20 @@
   "description": "Behind The Scenes Hip Hop",
   "devDependencies": {
     "browserify": "*",
-    "grunt": "*",
+    "connect-livereload": "*",
+    "grunt": "~0.4.4",
     "grunt-browserify": "*",
-    "grunt-cli": "*",
+    "grunt-cli": "^0.1.13",
     "grunt-concurrent": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
     "grunt-contrib-connect": "*",
     "grunt-contrib-jshint": "*",
-    "grunt-sass": "*",
-    "grunt-contrib-concat": "*",
     "grunt-contrib-sass": "*",
-    "grunt-contrib-clean": "*",
     "grunt-contrib-uglify": "*",
-    "connect-livereload": "*",
-    "grunt-contrib-watch": "*"
+    "grunt-contrib-watch": "*",
+    "grunt-deployments": "^0.2.0",
+    "grunt-sass": "*"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.0"
