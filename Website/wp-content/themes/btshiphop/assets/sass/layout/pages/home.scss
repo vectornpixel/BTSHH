@@ -27,7 +27,16 @@
   border-bottom: $brand-secondary 5px solid;
   text-transform: uppercase;
   a{
-
+    color: $brand-secondary;
+    font-style: italic;
+    font-weight: 800;
+  }
+}
+.author{
+  a{
+    color: $brand-secondary;
+    font-weight: 800;
+    text-transform: uppercase;
   }
 }
 .article_tag{

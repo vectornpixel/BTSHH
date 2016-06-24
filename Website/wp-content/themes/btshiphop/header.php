@@ -29,7 +29,7 @@
 		<div class="nav nav-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-2">
 						<div class="logo_wrapper">
 							<div class="logo_background">
 								<div class="logo_image">
@@ -40,7 +40,7 @@
 						<nav id="site-navigation" class="main-navigation" role="navigation">
 						</nav><!-- #site-navigation -->
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<div class="nav_wrapper">
 							<div class="row">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'btshh' ); ?></button>

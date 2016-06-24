@@ -8,7 +8,18 @@
  */
 
 ?>
+<div class="headers">
+	<div class="headers__image">
+		<div class="container">
+			<div class="headers__copy">
+				<div class="top_title">
 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="container">
