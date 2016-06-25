@@ -65,6 +65,12 @@
   height:50px;
   background-color: $yellow;
   margin-right:$baseMargin;
+  text-align: center;
+  a{
+    margin-top:50px;
+    color:$black;
+    font-family: 'Zona  Black';
+  }
 }
 .article_media-image{
   img{

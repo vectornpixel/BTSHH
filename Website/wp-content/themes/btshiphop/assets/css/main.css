@@ -336,7 +336,12 @@ section {
   width: 200px;
   height: 50px;
   background-color: #ffff9d;
-  margin-right: 10px; }
+  margin-right: 10px;
+  text-align: center; }
+  .article_tag-title a {
+    margin-top: 50px;
+    color: #000;
+    font-family: 'Zona  Black'; }
 
 .article_media-image img {
   border-top: 5px solid #ff6138; }

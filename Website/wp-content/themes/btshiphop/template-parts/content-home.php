@@ -42,7 +42,10 @@
 									<div class="article_tag">
 										<span class="article_tag-block"></span>
 										<span class="article_tag-block"></span>
-										<span class="article_tag-title"></span>
+										<span class="article_tag-title"><?php $categories_list = get_the_category_list( esc_html__( ', ', 'btshh' ) );
+											if ( $categories_list && btshh_categorized_blog() ) {
+												printf( $categories_list ); // WPCS: XSS OK.
+											} ?></span>
 									</div>
 									<div class="article_media-image">
 										<?php the_post_thumbnail('full', array('class' => 'img-responsive')) ?>
