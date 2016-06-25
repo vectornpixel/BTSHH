@@ -281,6 +281,9 @@ section {
     text-transform: uppercase;
     letter-spacing: 2px; }
 
+.article_main {
+  margin: 50px auto; }
+
 .article_wrapper {
   height: auto; }
   .article_wrapper .article_background {
@@ -361,6 +364,18 @@ section {
     color: #fff; }
     .headers .top_title h1 {
       text-align: center; }
+  .headers .category_title {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+    padding: 10px 40px;
+    width: 200px; }
+    .headers .category_title a {
+      color: #000;
+      text-transform: uppercase;
+      text-decoration: none; }
 
 .entry-content p {
   letter-spacing: 3px;

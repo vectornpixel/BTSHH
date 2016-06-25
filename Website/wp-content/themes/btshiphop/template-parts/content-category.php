@@ -13,7 +13,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="container">
-			<div class="row no-gutters flexbox article_main">
+			<div class="row no-gutters flexbox">
 							<div class="col-md-4 sec">
 								<div class="article_wrapper">
 									<div class="article_background">

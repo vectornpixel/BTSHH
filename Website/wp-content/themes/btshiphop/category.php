@@ -21,8 +21,7 @@ get_header(); ?>
 					<div class="container">
 						<div class="headers__copy">
 							<div class="top_title">
-								<h1>Highlighting the Artist behing the Artists.</h1>
-
+								<h1><?php echo category_description(); ?></h1>
 							</div>
 						</div>
 					</div>

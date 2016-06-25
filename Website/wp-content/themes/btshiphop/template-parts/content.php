@@ -22,6 +22,12 @@
 							the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 						} ?>
 					</div>
+					<div class="category_title">
+						<?php $categories_list = get_the_category_list( esc_html__( ', ', 'btshh' ) );
+						if ( $categories_list && btshh_categorized_blog() ) {
+							printf( $categories_list ); // WPCS: XSS OK.
+						} ?>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -57,6 +63,9 @@
 	</div><!-- .entry-content -->
 </div>
 	<footer class="entry-footer">
-		<?php btshh_entry_footer(); ?>
+		<div class="container">
+			<?php //btshh_entry_footer(); ?>
+		</div>
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
