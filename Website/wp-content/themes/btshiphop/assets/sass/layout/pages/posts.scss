@@ -1,11 +1,17 @@
+.head_container{
+  background-color: #181b1b;
+  margin-bottom: $baseMargin * 10;
+}
 .headers{
+  hr{
+    border: $white 3px solid;
+  }
   height:500px;
   position: relative;
-  background: #222222;
+  background-color: rgb(24, 27, 27);
   overflow: hidden;
-  margin-bottom: $baseMargin * 10;
   &__copy{
-    margin-top:275px;
+    margin-top:150px;
 
     h1{
       color:$lightgrey;
@@ -13,6 +19,7 @@
       letter-spacing: 5px;
       font-family: 'Zona  Black';
       text-transform: uppercase;
+      margin: 40px 0px;
     }
 
 
@@ -25,6 +32,7 @@
   }
 
   .top_title{
+
     z-index: 2;
     position: relative;
     color: #fff;

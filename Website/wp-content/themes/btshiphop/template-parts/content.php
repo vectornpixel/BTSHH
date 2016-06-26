@@ -32,33 +32,41 @@ if ( is_singular() && has_post_thumbnail( $post->ID )) :
 			-moz-background-size: cover;
 			-webkit-background-size: cover;
 		}
+
 	</style>
 <?php endif;
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="headers">
-		<div class="headers__image">
-			<? //the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
-			<div class="container">
-				<div class="headers__copy">
-					<div class="top_title">
-						<?php
-						if ( is_single() ) {
-							the_title( '<h1 class="entry-title">', '</h1>' );
-						} else {
-							the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-						} ?>
-					</div>
-					<div class="category_title">
-						<?php $categories_list = get_the_category_list( esc_html__( ', ', 'btshh' ) );
-						if ( $categories_list && btshh_categorized_blog() ) {
-							printf( $categories_list ); // WPCS: XSS OK.
-						} ?>
-					</div>
+	<div class="head_container">
+		<div class="container">
+			<div class="headers">
+				<div class="headers__image">
+					<? //the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						<div class="headers__copy">
+							<div class="category_title">
+								<?php $categories_list = get_the_category_list( esc_html__( ', ', 'btshh' ) );
+								if ( $categories_list && btshh_categorized_blog() ) {
+									printf( $categories_list ); // WPCS: XSS OK.
+								} ?>
+							</div>
+							<hr>
+							<div class="top_title">
+								<?php
+								if ( is_single() ) {
+									the_title( '<h1 class="entry-title">', '</h1>' );
+								} else {
+									the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+								} ?>
+							</div>
+
+							<hr>
+						</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 	<div class="container">
 	<header class="entry-header">
 

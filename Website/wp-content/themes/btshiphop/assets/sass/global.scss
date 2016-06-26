@@ -16,6 +16,30 @@ $lightgrey: #e0e0e0;
 $darkgrey: #171717;
 $font-title: 'Zona Black', sans-serif;
 
+//background: #283048; /* fallback for old browsers */
+
+//background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+//background: #4B79A1; /* fallback for old browsers */
+//background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+//background: #304352; /* fallback for old browsers */
+//background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+//background: #525252; /* fallback for old browsers */
+//background: -webkit-linear-gradient(to left, #525252 , #3d72b4); /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to left, #525252 , #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 /*------------------------------------*\
 	$Base Styles
 \*------------------------------------*/
@@ -47,8 +71,9 @@ html,body{
   height: 100%;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  padding-top:10px;
+  margin-top:0px !important;
 }
+
 p{
   letter-spacing: 1px;
 }

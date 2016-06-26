@@ -25,15 +25,15 @@
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'btshh' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-
+		<div class="container">
 		<div class="nav nav-top">
-			<div class="container">
+
 				<div class="row">
 					<div class="col-md-2">
 						<div class="logo_wrapper">
 							<div class="logo_background">
 								<div class="logo_image">
-									<img class="img-responsive" src="http://localhost:8888/BTSHH/Website/wp-content/uploads/2016/06/btslogo.png">
+									<img class="img-responsive" src="<?php echo site_url(); ?>/wp-content/uploads/2016/06/btslogo.png">
 								</div>
 							</div>
 						</div>
@@ -52,7 +52,8 @@
 				</div>
 
 
-			</div>
+
+		</div>
 		</div>
 	</header><!-- #masthead -->
 

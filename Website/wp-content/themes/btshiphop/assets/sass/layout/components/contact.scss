@@ -1,0 +1,57 @@
+.contact{
+  color:$lightgrey;
+  padding:50px;
+  background-color: $darkgrey;
+
+  hr{
+    border: 3px solid $lightgrey;
+    width: 10%;
+  }
+  p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    color:$lightgrey;
+    font-weight: 100;
+  }
+}
+label{
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.wpcf7-form-control, input[type="text"], input[type="email"] {
+  border: none;
+  background: #f7f7f7;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: #ffffff;
+  font-weight: 100;
+  outline:none;
+
+}
+.form-field:focus {
+  background: #dcdcdc;
+  color: $lightgrey;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 2px solid #f7f7f7;
+}
+div.wpcf7-validation-errors {
+  border: 2px solid #f7f7f7;
+}
+div.wpcf7-response-output {
+  margin: 0px;
+  padding: 0.2em 1em;
+  float: left;
+  font-size: 12px;
+}
+span.wpcf7-not-valid-tip {
+  color: #fff;
+  font-size: 10px;
+  display: block;
+}
+footer .wpcf7 textarea {
+  height: 75px;
+}
