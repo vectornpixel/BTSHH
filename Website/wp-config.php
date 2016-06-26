@@ -23,11 +23,11 @@
 define('DB_NAME', 'btshh');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'btshh');
 
 /** MySQL database password */
 
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Icekr3am714!');
 
 
 /** MySQL hostname */

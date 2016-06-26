@@ -119,7 +119,6 @@ module.exports = function (grunt) {
     'stage'
   ]);*/
   grunt.task.run([
-    'dev',
-      'watch'
+    'dev'
   ]);
 };
