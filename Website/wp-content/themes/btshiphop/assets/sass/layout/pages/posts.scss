@@ -5,7 +5,7 @@
   overflow: hidden;
   margin-bottom: $baseMargin * 10;
   &__copy{
-    vertical-align: bottom;
+    margin-top:275px;
 
     h1{
       color:$lightgrey;
@@ -36,14 +36,14 @@
   .category_title{
     margin: 0 auto;
     text-align: center;
-    background-color:$white;
-    color:$black;
+    background-color:$brand-secondary;
+
     border: 1px solid transparent;
     padding:10px 40px;
     width:200px;
-
+    font-family: 'Zona  Black';
     a{
-      color: $black;
+      color:$white;
       text-transform: uppercase;
       text-decoration: none;
     }

@@ -25,17 +25,17 @@ if ( post_password_required() ) {
 	<?php
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) : ?>
-		<hr>
-		<h4 class="comments-title">
+
+		<h3 class="comments-title">
 			<?php
 				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'Feedback on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'btshh' ) ),
+					esc_html( _nx( 'Feedback', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'btshh' ) ),
 					number_format_i18n( get_comments_number() ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			?>
-		</h4>
-
+		</h3>
+		<hr>
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
 			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'btshh' ); ?></h2>

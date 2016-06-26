@@ -8,10 +8,37 @@
  */
 
 ?>
-
+<?php
+if ( is_singular() && has_post_thumbnail( $post->ID )) :
+	$thumb_id = get_post_meta($post->ID, '_thumbnail_id', true);
+	$thumb_url = wp_get_attachment_url($thumb_id); ?>
+	<style type="text/css">
+		.headers:before{
+			height:100%;
+			content: ' ';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+			opacity: 0.2;
+			background: url("<?php echo $thumb_url ;?>") no-repeat scroll 50% 80%;
+			background-size: 100% 100%;
+			-webkit-filter: grayscale(80%);
+			filter: grayscale(20%);
+			-ms-background-size: cover;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+		}
+	</style>
+<?php endif;
+?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="headers">
 		<div class="headers__image">
+			<? //the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
 			<div class="container">
 				<div class="headers__copy">
 					<div class="top_title">
