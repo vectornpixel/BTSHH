@@ -31,7 +31,7 @@ define('DB_PASSWORD', 'Icekr3am714!');
 
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '107.180.25.122:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -81,6 +81,8 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', true);
 
+define( 'WP_HOME', 'http://localhost:8888/BTSHH/Website' );
+define( 'WP_SITEURL', 'http://localhost:8888/BTSHH/Website' );
 /* That's all, stop editing! Happy blogging. */
 /*
  * Switch local and dev databases
