@@ -12,7 +12,9 @@
     background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
     background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
   }
-
+.article_meta{
+  margin-top:$baseMargin * 10;
+}
 }
 .article_title{
   a{

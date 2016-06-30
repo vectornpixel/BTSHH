@@ -4,6 +4,7 @@
 \*------------------------------------*/
 /*------------------------------------*	$Base Styles
 \*------------------------------------*/
+@import url(animate.css);
 @font-face {
   font-family: 'Zona  Black';
   src: url("fonts/Zona Black.eot");
@@ -312,6 +313,8 @@ section {
     background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
     background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
     background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%); }
+  .article_wrapper .article_meta {
+    margin-top: 100px; }
 
 .article_title a {
   color: #000;
@@ -398,6 +401,8 @@ section {
   .headers img {
     object-fit: fill;
     max-height: 100%; }
+  .headers .entry-content h2 {
+    font-family: 'Zona  Black'; }
   .headers .top_title {
     z-index: 2;
     position: relative;

@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="262fd54a-b36a-484c-b2bc-4b6c671cddbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/Gruntfile.js" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/functions.php" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/template-parts/content.php" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/template-parts/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss" afterPath="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss" />
     </list>
     <ignored path="BTSHH.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +50,8 @@
           <file leaf-file-name="posts.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="19.041666">
-                  <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+                <state vertical-scroll-proportion="-20.0">
+                  <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -70,11 +67,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7005838">
-                  <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+                <state vertical-scroll-proportion="-15.0">
+                  <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -110,10 +107,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0">
+                <state vertical-scroll-proportion="0.039199334">
                   <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
@@ -146,11 +143,41 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="global.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.500417">
-                  <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+                <state vertical-scroll-proportion="-16.0">
+                  <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/animate.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-18.041666">
+                  <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.22018349">
+                  <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -183,7 +210,6 @@
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/archive.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/index.php" />
-        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/package.json" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/page-about.php" />
@@ -199,18 +225,19 @@
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/single.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/footer.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/footer.scss" />
-        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/category.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/Website/wp-config.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/front-page.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/template-parts/content.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/functions.php" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/js/main.js" />
-        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss" />
         <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss" />
+        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss" />
+        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php" />
+        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss" />
+        <option value="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -687,10 +714,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css" />
       <recent name="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/template-parts" />
       <recent name="$PROJECT_DIR$/Website/wp-content/themes/btshiphop" />
       <recent name="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/fonts" />
-      <recent name="$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -1173,16 +1200,16 @@
       <workItem from="1466965765547" duration="2977000" />
       <workItem from="1467151471728" duration="591000" />
       <workItem from="1467157719869" duration="319000" />
-      <workItem from="1467240027681" duration="3551000" />
+      <workItem from="1467240027681" duration="4575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58783000" />
+    <option name="totallyTimeSpent" value="59807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2880" height="1542" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1191,7 +1218,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13724138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13724138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11064129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1019536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1252,13 +1279,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1357,13 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12010008">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/backups/stage/20160623/21-53-56/db_backup.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.7750216">
@@ -1389,13 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78065056">
           <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020016681">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1570,14 +1576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.0">
@@ -1604,26 +1602,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss">
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.0">
-          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/posts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.041666">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/layout/pages/home.scss">
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7005838">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.039199334">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0">
+          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.041666">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/wp-content/themes/btshiphop/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22018349">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
