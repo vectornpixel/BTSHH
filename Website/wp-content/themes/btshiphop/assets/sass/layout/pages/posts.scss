@@ -1,25 +1,24 @@
 .head_container{
-  background-color: #181b1b;
   margin-bottom: $baseMargin * 10;
 }
 .headers{
   hr{
-    border: $white 3px solid;
+    border: $black 3px solid;
+    width:200px;
   }
-  height:500px;
-  position: relative;
-  background-color: rgb(24, 27, 27);
-  overflow: hidden;
   &__copy{
-    margin-top:150px;
-
     h1{
-      color:$lightgrey;
+      color:$black;
       font-weight: 100;
       letter-spacing: 5px;
       font-family: 'Zona  Black';
-      text-transform: uppercase;
+      text-transform: capitalize;
       margin: 40px 0px;
+      font-size:8em;
+    }
+    h4{
+      font-size:2em;
+      letter-spacing: 2px;
     }
 
 
@@ -36,13 +35,9 @@
   }
 }
   .top_title{
+    text-align: center;
+    color: $black;
 
-    z-index: 2;
-    position: relative;
-    color: #fff;
-    h1{
-      text-align: center;
-    }
 
   }
   .category_title{
@@ -67,4 +62,32 @@
     font-weight: 200;
   }
 
+}
+.post{
+  .top_title{
+
+  h1{
+  color:$black;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-family: 'Zona  Black';
+  text-transform: capitalize;
+  margin: 40px 0px;
+  font-size:4em;
+}
+  }
+  .category_title{
+    text-align: center;
+    background-color:$brand-secondary;
+
+    border: 1px solid transparent;
+    padding:10px 40px;
+    width:200px;
+    font-family: 'Zona  Black';
+    a{
+      color:$white;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
 }

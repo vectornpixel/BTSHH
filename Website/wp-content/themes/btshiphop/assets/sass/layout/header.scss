@@ -1,9 +1,10 @@
 .site-header{
-  background-color: $black;
+  background-color: $white;
+  margin-bottom: $baseMargin * 10;
 }
 .nav-top{
-  margin-bottom: 100px;
-padding-top:$basePadding;
+padding-top:$basePadding * 2;
+padding-bottom:$basePadding * 2;
 }
 .nav_wrapper{
   margin-top: $basePadding * 4;
@@ -19,7 +20,7 @@ padding-top:$basePadding;
     border-radius: 50%;
 
 
-    background: $brand-secondary; /* fallback for old browsers */
+    background: $black; /* fallback for old browsers */
 
   }
   .logo_image{
@@ -37,12 +38,12 @@ padding-top:$basePadding;
 .menu li{
   width: 230px;
   float: left;
-  border-left: 2px solid $white;
+  border-left: 2px solid $black;
   padding-left: $basePadding * 2;
   text-decoration: none;
 
   a{
-    color:$white;
+    color:$black;
     font-family: 'Zona  Black';
     font-size: 14px;
     text-transform: uppercase;

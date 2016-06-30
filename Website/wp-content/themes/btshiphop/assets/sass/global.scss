@@ -72,6 +72,7 @@ html,body{
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   margin-top:0px !important;
+  background-color: #f9f9f9;
 }
 
 p{
@@ -113,29 +114,29 @@ article{
 .flexbox .sec:nth-child(1) {
   /*background: $yellow;*/
   background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
-  background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
-  background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: -webkit-linear-gradient(right, #ebebeb 0, #ebebeb 60%, transparent 60%);
+  background: linear-gradient(right, #ebebeb 0, #ebebeb 60%, transparent 60%);
   order: 0;
 }
 .flexbox .sec:nth-child(2) {
   /*background: $yellow;*/
   background: -moz-linear-gradient(right, green 0, green 60%, transparent 60%);
-  background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
-  background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: -webkit-linear-gradient(right, #ebebeb 0, #ebebeb 60%, transparent 60%);
+  background: linear-gradient(right, #ebebeb 0, #ebebeb 60%, transparent 60%);
   order: 1;
 }
 .odd .sec:nth-child(1) {
   /*background: $yellow;*/
   background: -moz-linear-gradient(left, green 0, green 60%, transparent 60%);
-  background: -webkit-linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
-  background: linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: -webkit-linear-gradient(left, #ebebeb 0, #ebebeb 60%, transparent 60%);
+  background: linear-gradient(left, #ebebeb 0, #ebebeb 60%, transparent 60%);
   order: 1;
 }
 .odd .sec:nth-child(2) {
   /*background: $yellow;*/
   background: -moz-linear-gradient(left, green 0, green 60%, transparent 60%);
-  background: -webkit-linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
-  background: linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: -webkit-linear-gradient(left, #ebebeb 0, #ebebeb 60%, transparent 60%);
+  background: linear-gradient(left, #ebebeb 0, #ebebeb 60%, transparent 60%);
   order: 0;
 }
 .container-fluid {
