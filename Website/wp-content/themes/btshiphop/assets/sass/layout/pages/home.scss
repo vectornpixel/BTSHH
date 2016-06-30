@@ -12,6 +12,7 @@
     background: -webkit-linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
     background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
   }
+
 }
 .article_title{
   a{
@@ -23,8 +24,18 @@
     letter-spacing: 2px;
   }
 }
-.article_meta{
 
+.odd{
+  .article_wrapper{
+    .article_background{
+      background: -moz-linear-gradient(left, green 0, green 60%, transparent 60%);
+      background: -webkit-linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+      background: linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+    }
+    .article_meta{
+      margin-left:50px;
+    }
+  }
 }
 .posted-on{
   border-bottom: $brand-secondary 5px solid;
@@ -73,8 +84,11 @@
   }
 }
 .article_media-image{
+  max-height: 400px;
+  overflow: hidden;
   img{
     border-top:5px solid $brand-secondary;
+
   }
 
 }

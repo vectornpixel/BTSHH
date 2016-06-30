@@ -106,6 +106,8 @@ function btshh_scripts() {
 
 	wp_enqueue_style( 'btshh-sass', get_template_directory_uri() . '/assets/css/main.css', array(), true );
 
+	wp_enqueue_script( 'btshh-navigation', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
+
 	wp_enqueue_script( 'btshh-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'btshh-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

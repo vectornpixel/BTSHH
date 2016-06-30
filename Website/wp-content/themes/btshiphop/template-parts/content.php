@@ -79,7 +79,7 @@ if ( is_singular() && has_post_thumbnail( $post->ID )) :
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content text-center text-justify">
+	<div class="entry-content text-center">
 
 			<?php
 			the_content( sprintf(

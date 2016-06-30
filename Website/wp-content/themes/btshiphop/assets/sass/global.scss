@@ -106,6 +106,7 @@ article{
   display: -ms-flexbox;
   display: flex;
 }
+
 .flexbox .sec {
   flex: 1;
 }
@@ -123,7 +124,20 @@ article{
   background: linear-gradient(right, #ffffc6 0, #ffffc6 60%, transparent 60%);
   order: 1;
 }
-
+.odd .sec:nth-child(1) {
+  /*background: $yellow;*/
+  background: -moz-linear-gradient(left, green 0, green 60%, transparent 60%);
+  background: -webkit-linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  order: 1;
+}
+.odd .sec:nth-child(2) {
+  /*background: $yellow;*/
+  background: -moz-linear-gradient(left, green 0, green 60%, transparent 60%);
+  background: -webkit-linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  background: linear-gradient(left, #ffffc6 0, #ffffc6 60%, transparent 60%);
+  order: 0;
+}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
