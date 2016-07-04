@@ -1,4 +1,13 @@
 .site-footer{
   background-color: $black;
   color: $brand-secondary;
+
+  p{
+    font-weight: 100;
+  }
+  color:$white;
+  padding-top:$basePadding * 5;
+  padding-bottom:$basePadding * 5;
+
+
 }
