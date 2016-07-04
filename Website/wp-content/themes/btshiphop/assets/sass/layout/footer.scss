@@ -8,6 +8,15 @@
   color:$white;
   padding-top:$basePadding * 5;
   padding-bottom:$basePadding * 5;
+  ul{
+    list-style: none;
+    margin-left:0px;
+    padding-left:0px;
+    li{
+      a{
+        color: $white;
+      }
 
-
+    }
+  }
 }

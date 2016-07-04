@@ -565,3 +565,9 @@ footer .wpcf7 textarea {
   padding-bottom: 50px; }
   .site-footer p {
     font-weight: 100; }
+  .site-footer ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px; }
+    .site-footer ul li a {
+      color: #fff; }
